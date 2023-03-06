@@ -1,5 +1,5 @@
 import { Project } from './project';
-const baseUrl = 'http://localhost:4000';
+const baseUrl = 'https://api-alpha-blue-64.vercel.app';
 const url = `${baseUrl}/projects`;
 function translateStatusToErrorMessage(status: number) {
   switch (status) {
